@@ -4,6 +4,10 @@ Projeto full stack desenvolvido para transformar necessidades administrativas re
 
 > **Status:** em desenvolvimento ativo · versão de portfólio baseada na V27.1
 
+## Demonstração
+
+![Dashboard do CRM Gestão Escolar](docs/screenshots/01-dashboard.png)
+
 ## Sobre o projeto
 
 O CRM foi projetado para funcionar em um computador servidor e ser acessado por outras estações conectadas à mesma rede local. A aplicação centraliza processos de atendimento, matrícula, contratos, financeiro, usuários e auditoria, com diferentes níveis de permissão.
@@ -175,7 +179,39 @@ Em ambiente real, regras de firewall e acesso à rede devem ser configuradas de 
 
 ## Screenshots
 
-As imagens da demonstração serão adicionadas em [`docs/screenshots`](docs/screenshots). Todos os registros utilizados nas capturas devem ser fictícios.
+### Dashboard — visão geral
+
+Painel administrativo com indicadores de interessados, matrículas e contratos, além do monitoramento de usuários e sessões ativas.
+
+![Dashboard do CRM Gestão Escolar](docs/screenshots/01-dashboard.png)
+
+### Gestão de interessados
+
+Acompanhamento de potenciais alunos desde o primeiro contato, permitindo organizar o processo de atendimento e conversão em matrícula.
+
+![Gestão de interessados](docs/screenshots/03-interessados.png)
+
+### Matrículas
+
+Gerenciamento das matrículas, responsáveis, turmas, planos e informações necessárias ao processo administrativo escolar.
+
+![Gestão de matrículas](docs/screenshots/04-matriculas.png)
+
+### Financeiro
+
+Área destinada ao acompanhamento financeiro, mensalidades, vencimentos e situação dos pagamentos.
+
+![Módulo financeiro](docs/screenshots/05-financeiro.png)
+
+> Todos os nomes, valores e demais informações exibidos nas demonstrações são fictícios.
+
+### Autenticação
+
+Tela de acesso ao sistema com autenticação por e-mail, usuário ou CPF e controle de sessão.
+
+![Login do CRM Gestão Escolar](docs/screenshots/02-login.png)
+
+> Todos os dados apresentados nas imagens são fictícios e utilizados exclusivamente para demonstração.
 
 ## O que este projeto demonstra
 
