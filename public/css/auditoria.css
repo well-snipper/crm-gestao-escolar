@@ -1,0 +1,15 @@
+.auditoria-topo h3{margin:0 0 6px}
+.auditoria-topo p{margin:0;color:#667085}
+.auditoria-filtros{display:grid;grid-template-columns:minmax(220px,2fr) repeat(2,minmax(150px,1fr)) repeat(2,minmax(130px,.8fr)) auto;gap:12px;align-items:end;margin:22px 0}
+.auditoria-filtros input,.auditoria-filtros select{width:100%;padding:10px;border:1px solid var(--borda);border-radius:10px;background:#fff}
+.auditoria-filtros label{display:grid;gap:5px;font-size:12px;font-weight:700;color:#667085}
+.auditoria-resumo{padding:10px 0;color:#667085}
+.tabela-auditoria td{vertical-align:top;line-height:1.4}
+.tabela-auditoria td:first-child{white-space:nowrap}
+.tabela-auditoria td:last-child{min-width:260px}
+.auditoria-acao{display:inline-block;padding:5px 9px;border-radius:99px;background:#eaf6e3;color:#315d19;font-size:12px;font-weight:800}
+.auditoria-acao.perigo{background:#fde8e8;color:#a12222}
+.auditoria-paginacao{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:20px}
+.auditoria-paginacao button:disabled{opacity:.45;cursor:not-allowed}
+@media(max-width:1100px){.auditoria-filtros{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.auditoria-filtros{grid-template-columns:1fr}.auditoria-paginacao{flex-wrap:wrap}}

@@ -1,0 +1,25 @@
+#minhaConta{
+  width:100%;
+  background:#ffffff18;
+  color:#fff;
+  border:1px solid #ffffff44;
+  text-align:center;
+}
+
+#minhaConta:hover{background:#ffffff2a}
+
+.fechar-minha-conta{
+  position:absolute;
+  right:16px;
+  top:13px;
+  background:transparent;
+  color:#555;
+  font-size:22px;
+  padding:6px;
+}
+
+#minhaContaErro{
+  display:block;
+  color:#c53030;
+  margin-top:10px;
+}

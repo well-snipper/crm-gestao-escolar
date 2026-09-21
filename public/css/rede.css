@@ -1,0 +1,58 @@
+.rede-grade {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.rede-cartao {
+  padding: 18px;
+  border: 1px solid #e2e7ef;
+  border-radius: 13px;
+  background: #fafbfc;
+}
+
+.rede-cartao span { display: block; margin-bottom: 7px; color: #667085; font-size: 13px; }
+.rede-cartao strong { color: #32185a; font-size: 18px; }
+.rede-enderecos { display: grid; gap: 10px; margin-top: 18px; }
+
+.rede-endereco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 13px;
+  border: 1px solid #d7cce6;
+  border-radius: 11px;
+  background: #f8f5fc;
+}
+
+.rede-endereco code { color: #32185a; font-size: 15px; font-weight: 800; word-break: break-all; }
+.rede-endereco button { padding: 8px 12px; white-space: nowrap; }
+.rede-passos { margin: 12px 0 0; padding-left: 22px; line-height: 1.65; }
+
+.rede-alerta {
+  margin-top: 18px;
+  padding: 15px;
+  border: 1px solid #f0d98c;
+  border-radius: 11px;
+  background: #fff7df;
+  color: #5f4a0a;
+  line-height: 1.55;
+}
+
+.rede-seguranca {
+  margin-top: 18px;
+  padding: 15px;
+  border: 1px solid #b8dba6;
+  border-radius: 11px;
+  background: #f2faee;
+  color: #27551d;
+}
+
+#mensagemRede { display: block; min-height: 18px; margin-top: 10px; color: #27601b; font-weight: 700; }
+
+@media (max-width: 800px) {
+  .rede-grade { grid-template-columns: 1fr; }
+  .rede-endereco { align-items: stretch; flex-direction: column; }
+}

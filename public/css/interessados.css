@@ -1,0 +1,74 @@
+.modal-corpo{padding:26px;position:relative}
+.modal-grande{width:min(860px,94vw);max-height:92vh}
+.modal-corpo form{padding:0}
+.toolbar{display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.toolbar input,.toolbar select{padding:11px;border:1px solid var(--borda);border-radius:10px;background:#fff}
+.toolbar input{flex:1}
+.toolbar-acoes{display:flex;gap:8px;margin-left:auto}
+.toolbar-acoes button{white-space:nowrap}
+.importacao-previa{margin:16px 0 22px;padding:18px;border:1px solid #d8cae8;border-left:5px solid var(--roxo);border-radius:12px;background:#faf8fc}
+.importacao-topo{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.importacao-topo h3{margin:0 0 5px;color:var(--roxo)}
+.importacao-topo p{margin:0 0 12px;color:#475467}
+.importacao-acoes{display:flex;justify-content:flex-end;margin-top:14px}
+.importacao-ok{background:#eaf7e7;color:#277133}
+.importacao-erro{background:#fff0ee;color:#b42318}
+.importacao-previa button:disabled{opacity:.55;cursor:not-allowed}
+.acoes{display:flex;gap:7px;align-items:center}
+.acao{padding:7px 10px;border-radius:8px;font-size:12px;text-decoration:none;white-space:nowrap}
+.acao.whatsapp{background:#e8f7e4;color:#267b32}
+.acao.editar{background:#efe8f7;color:#583080}
+.vazio{text-align:center;color:#667085;padding:24px}
+.tabela-wrap{overflow:auto}
+.contato-grid{grid-template-columns:1fr 1fr}
+#areaHistorico{margin-top:24px}
+#areaHistorico hr{border:0;border-top:1px solid var(--borda);margin:10px 0 22px}
+.historico-item{border-left:4px solid var(--verde);background:#f7f9fc;border-radius:8px;padding:12px 14px;margin:10px 0}
+.historico-item small{display:block;color:#667085;margin-top:6px}
+.modal-matricula{width:min(1080px,96vw);max-height:94vh}
+.modal-corpo label{display:grid;gap:6px;margin:13px 0;font-size:14px;font-weight:600}
+.modal-corpo input,.modal-corpo select,.modal-corpo textarea{width:100%;padding:11px;border:1px solid var(--borda);border-radius:10px;background:#fff}
+.subtitulo{color:var(--roxo);border-bottom:1px solid var(--borda);padding-bottom:8px;margin:26px 0 4px}
+.subtitulo small,label small{font-size:12px;color:#667085;font-weight:400}
+.grid-3{grid-template-columns:repeat(3,1fr)}
+.contrato-link{display:inline-block;background:var(--roxo);color:#fff;padding:7px 10px;border-radius:8px;text-decoration:none;font-size:12px;font-weight:700}
+.duracao-plano{grid-column:1/-1;margin:0!important;padding:9px 12px;border-radius:8px;background:#f2f4f7;color:#475467;font-size:13px;font-weight:600}
+.duracao-plano.valido{background:#eaf7e7;color:#277133}
+.duracao-plano.invalido{background:#fff0ee;color:#b42318}
+.cards-professor{grid-template-columns:minmax(220px,360px)}
+.equipe-grid{display:grid;grid-template-columns:minmax(260px,340px) 1fr;gap:28px;align-items:start}
+.usuario-form{padding:20px!important;background:#f7f9fc;border:1px solid var(--borda);border-radius:14px}
+.usuario-form label{display:grid;gap:6px;margin:13px 0;font-size:14px;font-weight:600}
+.usuario-form input,.usuario-form select{width:100%;padding:11px;border:1px solid var(--borda);border-radius:10px;background:#fff}
+.usuario-form small{display:block;color:#667085;margin-top:-5px}
+.perfil-ajuda{display:grid;gap:5px;margin:-3px 0 14px;padding:12px;border:1px solid #d8cae8;border-left:4px solid var(--roxo);border-radius:10px;background:#f7f3fb;color:#475467;font-size:12px;line-height:1.45}
+.perfil-ajuda b{color:var(--roxo);font-size:13px}
+.perfil-boas-vindas{max-width:720px}
+.perfil-boas-vindas p{color:#667085;line-height:1.55}
+.acoes-form{display:flex;justify-content:flex-end;gap:10px;margin-top:18px}
+.status.inativo{background:#f2f4f7;color:#667085}
+.sessao-area{margin-top:auto;display:grid;gap:9px}
+.logo img{width:58px;height:58px;object-fit:contain;background:#fff;border-radius:14px;padding:3px;flex:0 0 58px}
+.sessao-area #usuario{margin-top:0}
+.sessao-area #usuario small{display:block;margin-top:7px;color:#dfd3ee;line-height:1.3}
+#sair{width:100%;background:#fff;color:var(--roxo);border:1px solid #ffffff55;text-align:center}
+#sair:hover{background:#f1eafb}
+.financeiro-filtros{margin-bottom:0}
+.relatorios-financeiro{display:flex;justify-content:flex-end;gap:10px;margin-top:15px;padding-top:15px;border-top:1px solid var(--borda)}
+.relatorios-financeiro .secundario{background:#fff;color:var(--roxo);border:1px solid var(--borda)}
+.financeiro-filtros #anoFinanceiro{max-width:120px;flex:0 0 120px}
+.cards-financeiro{margin-top:22px}
+.cards-financeiro .card strong{font-size:25px}
+.card-atraso{border-color:#f5b7ae;background:#fff9f8}
+.financeiro-pago{background:#eaf7e7;color:#277133}
+.financeiro-atrasado{background:#fff0ee;color:#b42318}
+.financeiro-cancelado{background:#f2f4f7;color:#667085}
+.financeiro-pendente{background:#fff7db;color:#8a5b00}
+.acoes-financeiro{flex-wrap:wrap}
+.acao.cobranca-whatsapp{background:#e5f8e9;color:#176b2c;border:1px solid #b9e5c3}
+.acao.cobranca-whatsapp:hover{background:#cef0d6}
+.sem-whatsapp{color:#8a5b00;white-space:nowrap}
+#financeiroModal{width:min(720px,94vw)}
+@media(max-width:800px){.contato-grid{grid-template-columns:1fr}.toolbar{align-items:stretch;flex-direction:column}.toolbar-acoes{margin-left:0;flex-wrap:wrap}.importacao-topo{flex-direction:column}}
+@media(max-width:900px){.grid-3{grid-template-columns:1fr}}
+@media(max-width:1000px){.equipe-grid{grid-template-columns:1fr}}
